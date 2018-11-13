@@ -1,0 +1,218 @@
+@media all and (max-width: 736px)
+{
+	body
+	{
+		margin: 0;
+	}
+
+	header img
+	{
+		width: 160px;
+	}
+
+	#menu li
+	{
+		font-size: 10px;
+		margin: 5%;
+	}
+
+	header
+	{
+		display: flex;
+		justify-content: flex-start;
+		height: 70px;
+	}
+
+	section h1
+	{
+		font-size: 30px;
+	}
+
+	#slideshow, .slide 
+	{
+    	height: 250px; 
+    	width: 100%;
+	}
+
+	#slide_1 .c_slide
+	{
+		background-size: 420px 220px;
+	}
+
+	#slide_2 .c_slide
+	{
+		display: none;
+	}
+
+	.texte_slide
+	{
+		position: absolute;
+		top: 5%;
+		font-size: 10px;
+	}
+
+	.banniere_info
+	{
+		display: none;
+	}
+
+	#slideshow h1
+	{
+		font-size: 20px;
+	}
+
+	#defilement_1, #defilement_2
+	{
+		display: none;
+	}
+
+	.slide nav a
+	{
+		display: none;
+	}
+
+	#c_services
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#ecran_services img
+	{
+		max-width: 100%;
+	}
+
+    #nos_services p
+    {
+    	animation-duration: 0s;
+    	animation-name: slidein;
+    	font-size: 14px;
+    }
+
+	#nos_services
+	{
+		width: 100%;
+	}
+
+	#c_services p
+	{
+		text-align: left;
+	}
+
+	#menu_portfolio li
+	{
+		font-size: 13px;
+	}
+
+	.img_portfolio img
+	{
+		margin-bottom: 15px;
+	}
+
+	.img_porfolio
+	{
+		display: flex;
+	}
+
+	.text_portfolio
+	{
+		visibility: visible;
+		height: 12%;
+	}
+
+	.text_portfolio p
+	{
+		font-size: 12px;
+	}
+
+	.text_portfolio h4
+	{
+		font-size: 17px;
+	}
+
+	#contact
+	{
+		width: 100%;
+		height: 400px;
+		font-size: 15px;
+		margin-top: 40px;
+	}
+
+	#contact h5
+	{
+		font-size: 20px;
+	}
+
+	#form_contact
+	{
+		height: 550px;
+		width: 98%;
+		position: static;
+		background-color: rgb(250, 250, 250);
+		margin-top: 40px;
+		box-sizing: border-box;
+	}
+
+	iframe
+	{
+		height: 400px;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) 
+{
+	#wrapper
+	{
+		width: 100%;
+	}
+
+	header
+	{
+		height: 70px;
+		display: flex;
+		justify-content: center;
+	}
+
+	header img
+	{
+		width: 220px;
+	}
+
+	#ecran_services img
+	{
+		width: 450px;
+	}
+
+    #nos_services p
+    {
+    	animation-duration: 0s;
+    	animation-name: slidein;
+    	font-size: 16px;
+    }
+
+	#menu li
+	{
+		font-size: 15px;
+		margin: 5%;
+	}
+
+	#map
+	{
+		margin-bottom: 30px;
+	}
+
+	#form_contact
+	{
+		width: 30%;
+	}
+
+	input
+	{
+		width: 80%;
+	}
+
+	textarea
+	{
+		width: 80%;
+	}
+}
